@@ -1,0 +1,128 @@
+body {
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.special {
+  font-family: 'Playfair Display', serif;
+}
+
+p, a, span, li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-fluid {
+  position: relative;
+  top: 30px;
+}
+
+
+#proffession {
+  color: #0779e4;
+}
+
+.developer-image {
+  width: 600px;
+}
+
+.black-heading-container {
+  position: relative;
+  top: 42%;
+  display: inline-block;
+}
+
+.black-heading {
+  font-size: 70px !important;
+}
+
+.black-heading-cover {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: -90px;
+}
+
+/* Responsive Design */
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .developer-image {
+    width: 400px !important;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  .developer-image {
+    width: 270px;
+  }
+  
+.black-heading {
+  font-size: 50px !important;
+}
+
+    
+}
+
+/* Responsive Design */
