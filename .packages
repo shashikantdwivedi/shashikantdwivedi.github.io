@@ -4,7 +4,6 @@ archive:packages/archive/
 args:packages/args/
 async:packages/async/
 bazel_worker:packages/bazel_worker/
-bootstrap_bundle:packages/bootstrap_bundle/
 build:packages/build/
 build_config:packages/build_config/
 build_daemon:packages/build_daemon/
@@ -42,11 +41,11 @@ package_config:packages/package_config/
 path:packages/path/
 pedantic:packages/pedantic/
 pool:packages/pool/
+portfolio:packages/portfolio/
 protobuf:packages/protobuf/
 pub_semver:packages/pub_semver/
 pubspec_parse:packages/pubspec_parse/
 quiver:packages/quiver/
-react:packages/react/
 scratch_space:packages/scratch_space/
 shelf:packages/shelf/
 shelf_web_socket:packages/shelf_web_socket/
@@ -62,5 +61,4 @@ typed_data:packages/typed_data/
 watcher:packages/watcher/
 web_socket_channel:packages/web_socket_channel/
 yaml:packages/yaml/
-portfolio:packages/portfolio/
 $sdk:packages/$sdk/
