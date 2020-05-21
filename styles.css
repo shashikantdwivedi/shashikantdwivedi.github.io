@@ -54,9 +54,42 @@ body {
 .main-container {
   position: relative;
   top: 30%;
+  width: 50%;
 }
 
 .lab, .las {
   font-size: 35px;
   color: white;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .main-container {
+    width: 80%;
+  }
+}
+ 
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .main-container {
+    width: 80%;
+  }
+}
+ 
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  
+}
+ 
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 
+}
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+ 
 }
